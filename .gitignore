@@ -1,0 +1,8 @@
+.idea
+*.iml
+target
+classes
+.DS_Store
+*.zip
+*.log
+/stock2-front-web/src/main/resources/env.properties
