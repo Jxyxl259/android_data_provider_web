@@ -18,7 +18,7 @@ import static com.jiang.android.utils.consts.ResultEnum.SUCCESS;
  * @author: jiang
  * @create: 2020-11-30 17:25
  */
-@RestController("/food")
+@RestController
 public class CommonController {
 
     private static Logger log = LoggerFactory.getLogger(CommonController.class);
@@ -26,7 +26,7 @@ public class CommonController {
     @Autowired
     private FoodService foodService;
 
-    @PostMapping("/foodlist")
+    @PostMapping({"/foodlist", "/foodlist.do"})
     public RemoteResult fetchFoodList(){
         RemoteResult<List<FoodInfo>> res = new RemoteResult<>(false);
         log.info("fetchFoodList");
