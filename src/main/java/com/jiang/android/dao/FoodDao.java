@@ -1,6 +1,6 @@
 package com.jiang.android.dao;
 
-import com.jiang.android.entity.pojo.FoodInfo;
+import com.jiang.android.entity.FoodInfo;
 
 import java.util.List;
 

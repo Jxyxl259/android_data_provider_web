@@ -8,7 +8,7 @@ package com.jiang.android.utils.consts;
 public enum ResultEnum {
 
     SUCCESS(0, "success"),
-    FAIELD(1, "FAIELD");
+    FAIELD(1, "faield");
 
     ResultEnum(int code, String msg) {
         this.code = code;

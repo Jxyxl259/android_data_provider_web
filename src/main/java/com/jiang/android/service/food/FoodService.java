@@ -1,7 +1,7 @@
 package com.jiang.android.service.food;
 
 import com.jiang.android.dao.FoodDao;
-import com.jiang.android.entity.pojo.FoodInfo;
+import com.jiang.android.entity.FoodInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
